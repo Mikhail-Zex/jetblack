@@ -1,0 +1,107 @@
+{
+	"name": "JetBlack",
+	"include": "./darkPlusTokenGrammar.json",
+	"colors": {
+		// Base Colors + Misc
+		"focusBorder": "#043927",
+		"progressBar.background": "#043927",
+
+		// Title bar (contains the open/minimize/close buttons)
+		"titleBar.activeBackground": "#0D0D0D",
+		"titleBar.activeForeground": "#5F4430",
+		
+		// Menu bar (file/edit/... menu's, usually in-line with the menu bar)
+		"menubar.selectionBackground": "#000000",
+		"menubar.selectionBorder": "#5F4430",
+		
+		"menu.background": "#000000",
+		"menu.foreground": "#5F4430",
+		"menu.separatorBackground": "#5F4430",
+		
+		"menu.selectionBackground": "#0D0D0D",
+		"menu.selectionForeground": "#A9330F",
+		
+		// Activity Bar (the strip on the left containing the file/search/debug/git/extensions menu icons)
+        "activityBar.background": "#000000",
+		"activityBar.foreground": "#5F4430",
+
+		"activityBarBadge.background": "#5F4430",
+		"activityBarBadge.foreground": "#000000",
+
+		"activityBar.activeBackground": "#0D0D0D",
+
+		// SideBar (the actual file/search/debug/git/extensions menu)
+        "sideBar.background": "#0D0D0D",		
+		"sideBarTitle.foreground": "#A9330F",
+
+		"sideBarSectionHeader.background": "#0D0D0D",
+		"sideBarSectionHeader.foreground": "#5F4430",
+        
+		"list.activeSelectionBackground": "#000000",
+		"list.hoverBackground": "#000000",
+
+		"tree.indentGuidesStroke": "#A9330F",
+
+		// Editor (where you write your code)
+        "editor.background": "#000000",
+
+		"editor.lineHighlightBackground": "#0D0D0D",
+
+        "editorLineNumber.foreground": "#5F4430",
+		"editorLineNumber.activeForeground": "#A9330F",
+        
+		"editorIndentGuide.background": "#5F4430",
+        "editorIndentGuide.activeBackground": "#A9330F",
+
+		"editor.selectionBackground": "#5F4430",
+		
+		"editorPane.background": "#000000",
+
+		"editorGutter.addedBackground": "#043927",
+		"editorGutter.deletedBackground": "#A9330F",
+		"editorGutter.modifiedBackground": "#5F4430",
+		
+		// Input boxes
+        "input.background": "#000000",
+
+		// Tabs and stuff ("Editor tabs" - The blocks that show the name of the file being edited just below the menu)
+        "editorGroupHeader.tabsBackground": "#0D0D0D",
+		"tab.border": "#0D0D0D",
+        
+		"tab.activeBackground": "#000000",
+		"tab.activeForeground": "#A9330F",
+		
+        "tab.inactiveBackground": "#0D0D0D",
+		"tab.inactiveForeground": "#5F4430",
+
+		// Buttons
+        "button.background": "#5F4430",
+        "button.hoverBackground": "#043927",
+
+		"textLink.foreground": "#5F4430",
+		"textLink.activeForeground": "#043927",
+
+		//Status bar (the bottom most bar that gives you an overview of plugins/terminal/problems/...)
+        "statusBar.background": "#043927",
+		"statusBar.debuggingBackground": "#A9330F",
+        "statusBar.noFolderBackground": "#5F4430",
+
+		// Minimap & Scroll-bar (the mini-view of your code to the right side)
+		"editorOverviewRuler.border": "#000000",
+
+		"minimap.background": "#000000",
+
+		"scrollbarSlider.background": "#000000",
+		"scrollbarSlider.hoverBackground": "#0D0D0D",
+		"scrollbarSlider.activeBackground": "#5F4430",
+
+		// Notifications
+		"notifications.background": "#0D0D0D",
+		
+		// Quick Inputs (find-and-replace/command-pallette/...)
+		"quickInput.background": "#0D0D0D",
+		"quickInput.foreground": "#5F4430",
+		"quickInputList.focusBackground": "#000000",
+		"quickInputList.focusForeground": "#A9330F",
+	}
+}
